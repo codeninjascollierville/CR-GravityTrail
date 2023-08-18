@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c0d213e140e447243a5a0d6c5bf6870e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shuriken: {fileID: 2006081466200390246, guid: 0f4204000f1e3f546968ea1a535df96c,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
