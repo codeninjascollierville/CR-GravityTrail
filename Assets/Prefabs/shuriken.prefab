@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2006081466200390249}
   - component: {fileID: 2006081466200390248}
-  - component: {fileID: -1229098050986992871}
-  - component: {fileID: -65666786586736426}
+  - component: {fileID: 1847219908345402967}
+  - component: {fileID: 1120520906519801239}
   m_Layer: 0
   m_Name: shuriken
   m_TagString: ThrowingObject
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &-1229098050986992871
+--- !u!61 &1847219908345402967
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,7 +109,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.64}
   m_EdgeRadius: 0
---- !u!114 &-65666786586736426
+--- !u!114 &1120520906519801239
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,8 +118,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2006081466200390246}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd3035ea8cbdfa540ad1cddc47bccf91, type: 3}
+  m_Script: {fileID: 11500000, guid: 7107771811af99340ad868eb916717dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   direction: {fileID: 0}
-  speed: 8
+  speed: 15
