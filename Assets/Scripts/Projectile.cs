@@ -16,6 +16,7 @@ public class Projectile : MonoBehaviour
     void Update()
     {
         transform.position += direction.offset * Time.deltaTime * speed;
+        Invoke("DestroyThrowable", 2);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -25,7 +26,7 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    private void DestroyThrowable()
+    public void DestroyThrowable()
     {
         Destroy(gameObject);
     }
