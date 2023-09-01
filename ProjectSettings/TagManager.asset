@@ -8,6 +8,7 @@ TagManager:
   - ThrowingObject
   - Ground
   - Collectable
+  - Exit
   layers:
   - Default
   - TransparentFX
