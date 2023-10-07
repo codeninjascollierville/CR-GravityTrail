@@ -21,7 +21,7 @@ public class Teleport : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player" && EnemyCount == 0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
     }
 }
